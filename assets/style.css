@@ -44,3 +44,42 @@ table {
     margin-bottom: 20px;
     border-radius: 20px;
   }
+
+  /* style form */
+form {
+  font-family: 'Courier New', Courier, monospace;
+  border: #dadada solid 1px;
+  width: 410px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #dadada;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input[type="text"], input[type="date"], input[type="number"], select, textarea {
+  width: 400px;
+  padding: 5px 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
